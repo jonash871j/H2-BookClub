@@ -1,3 +1,5 @@
+LANGUAGE PLPGSQL;
+
 explain analyze select * from author, books
 	where author.bookid = books.isbn13
 	and books.isbn like '%345%'
