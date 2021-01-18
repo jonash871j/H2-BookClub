@@ -4,4 +4,4 @@ explain analyze select * from author, books
 	and author.author ilike '%col%'
 	and isbn13 like '%97%'
 
--- The average time was 470ms
+-- The time was between 470ms - 520ms
